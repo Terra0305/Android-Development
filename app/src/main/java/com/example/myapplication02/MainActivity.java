@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"));
         startActivity(myIntent);
     }
-    public void onButton3CliDcked(View v){
-        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tell:010-1000-1000"));
+    public void onButton3Clicked(View v){
+        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1000-1000"));
         startActivity(myIntent);
     }
 }
